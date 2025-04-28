@@ -1,3 +1,5 @@
+## NAME: DIVYA LAKSHMI M
+## Reg.No: 212224040082
 # HALF_ADDER_SUBTRACTOR
 
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
@@ -35,6 +37,7 @@ Figure -02 HALF Subtractor
 
 
 **Truthtable**
+
 ![DE E-3 truthtable](https://github.com/04Varsha/HALF_ADDER_SUBTRACTOR/assets/149035374/c06bba9c-9c1e-4e92-a1e3-869583ce44c7)
 
 
@@ -52,7 +55,7 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
+```
 module exp3(a,b,cy,sm,df,bo);
 input a,b;
 output sm,cy,df,bo;
@@ -61,7 +64,7 @@ and (cy,a,b);
 xor (df,a,b);
 and (bo,~a,b);
 endmodule
-
+```
 
 **RTL Schematic**
 
@@ -72,4 +75,5 @@ endmodule
 ![exp3](https://github.com/user-attachments/assets/2279a8b8-7ce0-4a9e-a6c6-792d594c4600)
 
 **Result:**
+
 Thus ,The Half Adder and Half Subtractor circuits are designed and the truth tables is verified using Quartus software.
